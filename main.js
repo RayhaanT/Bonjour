@@ -9,7 +9,6 @@ window.onload = function() {
 }
 
 function docClicked(evt) {
-    console.log('y')
     clicks++
     fontSize++
     text.style.fontSize = fontSize + "px"
