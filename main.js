@@ -31,7 +31,7 @@ function docClicked(evt) {
     }, 1000/60)
         }
         
-        degreeInterval = (degreeInterval + 1)%40
+        degreeInterval = (degreeInterval + 1)%50
     }
     if(langClicks >= 10) {
         text.innerHTML = translations[index]
